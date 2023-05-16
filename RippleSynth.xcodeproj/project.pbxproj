@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		638F9E1B2A0DD5DF00D4A446 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 638F9E1A2A0DD5DF00D4A446 /* main.c */; };
+		638F9E282A0DD67F00D4A446 /* pd_api_display.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E1E2A0DD67F00D4A446 /* pd_api_display.h */; };
+		638F9E292A0DD67F00D4A446 /* pd_api_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E1F2A0DD67F00D4A446 /* pd_api_file.h */; };
+		638F9E2A2A0DD67F00D4A446 /* pd_api_gfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E202A0DD67F00D4A446 /* pd_api_gfx.h */; };
+		638F9E2B2A0DD67F00D4A446 /* pd_api_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E212A0DD67F00D4A446 /* pd_api_sys.h */; };
+		638F9E2C2A0DD67F00D4A446 /* pd_api_json.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E222A0DD67F00D4A446 /* pd_api_json.h */; };
+		638F9E2D2A0DD67F00D4A446 /* pd_api_sound.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E232A0DD67F00D4A446 /* pd_api_sound.h */; };
+		638F9E2E2A0DD67F00D4A446 /* pd_api_lua.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E242A0DD67F00D4A446 /* pd_api_lua.h */; };
+		638F9E2F2A0DD67F00D4A446 /* pd_api_sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E252A0DD67F00D4A446 /* pd_api_sprite.h */; };
+		638F9E302A0DD67F00D4A446 /* pd_api_scoreboards.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E262A0DD67F00D4A446 /* pd_api_scoreboards.h */; };
+		638F9E312A0DD67F00D4A446 /* pd_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 638F9E272A0DD67F00D4A446 /* pd_api.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		638F9E112A0DD42C00D4A446 /* libPlaydateSimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlaydateSimulator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		638F9E182A0DD47400D4A446 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		638F9E1A2A0DD5DF00D4A446 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		638F9E1E2A0DD67F00D4A446 /* pd_api_display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_display.h; sourceTree = "<group>"; };
+		638F9E1F2A0DD67F00D4A446 /* pd_api_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_file.h; sourceTree = "<group>"; };
+		638F9E202A0DD67F00D4A446 /* pd_api_gfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_gfx.h; sourceTree = "<group>"; };
+		638F9E212A0DD67F00D4A446 /* pd_api_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_sys.h; sourceTree = "<group>"; };
+		638F9E222A0DD67F00D4A446 /* pd_api_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_json.h; sourceTree = "<group>"; };
+		638F9E232A0DD67F00D4A446 /* pd_api_sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_sound.h; sourceTree = "<group>"; };
+		638F9E242A0DD67F00D4A446 /* pd_api_lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_lua.h; sourceTree = "<group>"; };
+		638F9E252A0DD67F00D4A446 /* pd_api_sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_sprite.h; sourceTree = "<group>"; };
+		638F9E262A0DD67F00D4A446 /* pd_api_scoreboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_scoreboards.h; sourceTree = "<group>"; };
+		638F9E272A0DD67F00D4A446 /* pd_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api.h; sourceTree = "<group>"; };
+		63C357932A11BFFD004241C5 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		63C357952A127DDA004241C5 /* type_1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_3.png; sourceTree = "<group>"; };
+		63C357962A127DDA004241C5 /* type_1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_4.png; sourceTree = "<group>"; };
+		63C357972A127DDA004241C5 /* type_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_1.png; sourceTree = "<group>"; };
+		63C357982A127DDA004241C5 /* type_1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_2.png; sourceTree = "<group>"; };
+		63C357992A127DDA004241C5 /* type_1_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_6.png; sourceTree = "<group>"; };
+		63C3579A2A127DDA004241C5 /* type_1_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_8.png; sourceTree = "<group>"; };
+		63C3579B2A127DDA004241C5 /* type_1_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_7.png; sourceTree = "<group>"; };
+		63C3579C2A127DDA004241C5 /* type_2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_2_3.png; sourceTree = "<group>"; };
+		63C3579D2A127DDA004241C5 /* type_2_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_2_6.png; sourceTree = "<group>"; };
+		63C3579E2A127DDA004241C5 /* type_2_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_2_8.png; sourceTree = "<group>"; };
+		63C3579F2A127DDA004241C5 /* type_2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_2_1.png; sourceTree = "<group>"; };
+		63C357A02A127DDA004241C5 /* type_2_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_2_5.png; sourceTree = "<group>"; };
+		63C357A12A127DDA004241C5 /* type_1_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_5.png; sourceTree = "<group>"; };
+		63C357A22A127DDA004241C5 /* type_2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_2_2.png; sourceTree = "<group>"; };
+		63C357A32A127DDA004241C5 /* type_2_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_2_7.png; sourceTree = "<group>"; };
+		63C357A42A127DDA004241C5 /* type_2_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_2_4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		638F9E0F2A0DD42C00D4A446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		638F9E082A0DD42C00D4A446 = {
+			isa = PBXGroup;
+			children = (
+				638F9E322A0DDAF200D4A446 /* Source */,
+				638F9E182A0DD47400D4A446 /* Makefile */,
+				638F9E1D2A0DD67F00D4A446 /* pd_api */,
+				638F9E272A0DD67F00D4A446 /* pd_api.h */,
+				638F9E1C2A0DD62000D4A446 /* src */,
+				638F9E122A0DD42C00D4A446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		638F9E122A0DD42C00D4A446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638F9E112A0DD42C00D4A446 /* libPlaydateSimulator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		638F9E1C2A0DD62000D4A446 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				638F9E1A2A0DD5DF00D4A446 /* main.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		638F9E1D2A0DD67F00D4A446 /* pd_api */ = {
+			isa = PBXGroup;
+			children = (
+				638F9E1E2A0DD67F00D4A446 /* pd_api_display.h */,
+				638F9E1F2A0DD67F00D4A446 /* pd_api_file.h */,
+				638F9E202A0DD67F00D4A446 /* pd_api_gfx.h */,
+				638F9E212A0DD67F00D4A446 /* pd_api_sys.h */,
+				638F9E222A0DD67F00D4A446 /* pd_api_json.h */,
+				638F9E232A0DD67F00D4A446 /* pd_api_sound.h */,
+				638F9E242A0DD67F00D4A446 /* pd_api_lua.h */,
+				638F9E252A0DD67F00D4A446 /* pd_api_sprite.h */,
+				638F9E262A0DD67F00D4A446 /* pd_api_scoreboards.h */,
+			);
+			path = pd_api;
+			sourceTree = "<group>";
+		};
+		638F9E322A0DDAF200D4A446 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				63C357892A10A4CB004241C5 /* images */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		63C357892A10A4CB004241C5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				63C357A52A127E53004241C5 /* Node_2 */,
+				63C357A62A127E62004241C5 /* Node_1 */,
+				63C357932A11BFFD004241C5 /* player.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		63C357A52A127E53004241C5 /* Node_2 */ = {
+			isa = PBXGroup;
+			children = (
+				63C3579F2A127DDA004241C5 /* type_2_1.png */,
+				63C357A22A127DDA004241C5 /* type_2_2.png */,
+				63C3579C2A127DDA004241C5 /* type_2_3.png */,
+				63C357A42A127DDA004241C5 /* type_2_4.png */,
+				63C357A02A127DDA004241C5 /* type_2_5.png */,
+				63C3579D2A127DDA004241C5 /* type_2_6.png */,
+				63C357A32A127DDA004241C5 /* type_2_7.png */,
+				63C3579E2A127DDA004241C5 /* type_2_8.png */,
+			);
+			path = Node_2;
+			sourceTree = "<group>";
+		};
+		63C357A62A127E62004241C5 /* Node_1 */ = {
+			isa = PBXGroup;
+			children = (
+				63C357972A127DDA004241C5 /* type_1_1.png */,
+				63C357982A127DDA004241C5 /* type_1_2.png */,
+				63C357952A127DDA004241C5 /* type_1_3.png */,
+				63C357962A127DDA004241C5 /* type_1_4.png */,
+				63C357A12A127DDA004241C5 /* type_1_5.png */,
+				63C357992A127DDA004241C5 /* type_1_6.png */,
+				63C3579B2A127DDA004241C5 /* type_1_7.png */,
+				63C3579A2A127DDA004241C5 /* type_1_8.png */,
+			);
+			path = Node_1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		638F9E0D2A0DD42C00D4A446 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638F9E2F2A0DD67F00D4A446 /* pd_api_sprite.h in Headers */,
+				638F9E282A0DD67F00D4A446 /* pd_api_display.h in Headers */,
+				638F9E2E2A0DD67F00D4A446 /* pd_api_lua.h in Headers */,
+				638F9E2D2A0DD67F00D4A446 /* pd_api_sound.h in Headers */,
+				638F9E302A0DD67F00D4A446 /* pd_api_scoreboards.h in Headers */,
+				638F9E2B2A0DD67F00D4A446 /* pd_api_sys.h in Headers */,
+				638F9E2C2A0DD67F00D4A446 /* pd_api_json.h in Headers */,
+				638F9E312A0DD67F00D4A446 /* pd_api.h in Headers */,
+				638F9E2A2A0DD67F00D4A446 /* pd_api_gfx.h in Headers */,
+				638F9E292A0DD67F00D4A446 /* pd_api_file.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		637772102A12B2F500F7DC4A /* PlaydateDevice */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) device pdc";
+			buildConfigurationList = 637772132A12B2F500F7DC4A /* Build configuration list for PBXLegacyTarget "PlaydateDevice" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = PlaydateDevice;
+			passBuildSettingsInEnvironment = 1;
+			productName = PlaydateDevice;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		638F9E102A0DD42C00D4A446 /* PlaydateSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638F9E152A0DD42C00D4A446 /* Build configuration list for PBXNativeTarget "PlaydateSimulator" */;
+			buildPhases = (
+				638F9E0D2A0DD42C00D4A446 /* Headers */,
+				638F9E0E2A0DD42C00D4A446 /* Sources */,
+				638F9E0F2A0DD42C00D4A446 /* Frameworks */,
+				638F9E192A0DD58000D4A446 /* Compile PDX */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaydateSimulator;
+			productName = PlaydateTestCSimulator;
+			productReference = 638F9E112A0DD42C00D4A446 /* libPlaydateSimulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		638F9E092A0DD42C00D4A446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					637772102A12B2F500F7DC4A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					638F9E102A0DD42C00D4A446 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 638F9E0C2A0DD42C00D4A446 /* Build configuration list for PBXProject "RippleSynth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 638F9E082A0DD42C00D4A446;
+			productRefGroup = 638F9E122A0DD42C00D4A446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638F9E102A0DD42C00D4A446 /* PlaydateSimulator */,
+				637772102A12B2F500F7DC4A /* PlaydateDevice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		638F9E192A0DD58000D4A446 /* Compile PDX */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile PDX";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"${TARGET_BUILD_DIR}/${EXECUTABLE_NAME}\" Source/pdex.dylib\ntouch Source/pdex.bin\nmake pdc\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638F9E0E2A0DD42C00D4A446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638F9E1B2A0DD5DF00D4A446 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		637772112A12B2F500F7DC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 78U77V747D;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		637772122A12B2F500F7DC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 78U77V747D;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		638F9E132A0DD42C00D4A446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TARGET_EXTENSION=1",
+					"PLAYDATE_SIMULATOR=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/Developer/PlaydateSDK/C_API";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		638F9E142A0DD42C00D4A446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/Developer/PlaydateSDK/C_API";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		638F9E162A0DD42C00D4A446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78U77V747D;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		638F9E172A0DD42C00D4A446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78U77V747D;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637772132A12B2F500F7DC4A /* Build configuration list for PBXLegacyTarget "PlaydateDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637772112A12B2F500F7DC4A /* Debug */,
+				637772122A12B2F500F7DC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638F9E0C2A0DD42C00D4A446 /* Build configuration list for PBXProject "RippleSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638F9E132A0DD42C00D4A446 /* Debug */,
+				638F9E142A0DD42C00D4A446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638F9E152A0DD42C00D4A446 /* Build configuration list for PBXNativeTarget "PlaydateSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638F9E162A0DD42C00D4A446 /* Debug */,
+				638F9E172A0DD42C00D4A446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 638F9E092A0DD42C00D4A446 /* Project object */;
+}
