@@ -1,0 +1,8 @@
+name=Ripple Synth
+author=M0zrat
+description=Experimental music-making on the Playdate
+bundleID=com.m0zrat.playdate.1
+version=1.0
+buildNumber=1
+imagePath=launcher/LauncherImage.png
+launchSoundPath=launcher/LauncherImage.m4a

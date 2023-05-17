@@ -34,6 +34,9 @@
 		638F9E252A0DD67F00D4A446 /* pd_api_sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_sprite.h; sourceTree = "<group>"; };
 		638F9E262A0DD67F00D4A446 /* pd_api_scoreboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api_scoreboards.h; sourceTree = "<group>"; };
 		638F9E272A0DD67F00D4A446 /* pd_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pd_api.h; sourceTree = "<group>"; };
+		63AC58BC2A14F162007C0D9B /* pdxinfo */ = {isa = PBXFileReference; lastKnownFileType = text; path = pdxinfo; sourceTree = "<group>"; };
+		63AC58BF2A14F718007C0D9B /* LauncherAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = LauncherAudio.m4a; sourceTree = "<group>"; };
+		63AC58C02A14F718007C0D9B /* LauncherImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LauncherImage.png; sourceTree = "<group>"; };
 		63C357932A11BFFD004241C5 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
 		63C357952A127DDA004241C5 /* type_1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_3.png; sourceTree = "<group>"; };
 		63C357962A127DDA004241C5 /* type_1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type_1_4.png; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 		638F9E082A0DD42C00D4A446 = {
 			isa = PBXGroup;
 			children = (
+				63AC58BD2A14F237007C0D9B /* launcher */,
+				63AC58BC2A14F162007C0D9B /* pdxinfo */,
 				638F9E322A0DDAF200D4A446 /* Source */,
 				638F9E182A0DD47400D4A446 /* Makefile */,
 				638F9E1D2A0DD67F00D4A446 /* pd_api */,
@@ -114,6 +119,15 @@
 				63C357892A10A4CB004241C5 /* images */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		63AC58BD2A14F237007C0D9B /* launcher */ = {
+			isa = PBXGroup;
+			children = (
+				63AC58BF2A14F718007C0D9B /* LauncherAudio.m4a */,
+				63AC58C02A14F718007C0D9B /* LauncherImage.png */,
+			);
+			path = launcher;
 			sourceTree = "<group>";
 		};
 		63C357892A10A4CB004241C5 /* images */ = {
